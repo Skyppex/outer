@@ -7,6 +7,7 @@ use std::{
 };
 
 use args::OuterArgs;
+use clap::Parser;
 
 fn main() -> Result<()> {
     let args = OuterArgs::parse();
